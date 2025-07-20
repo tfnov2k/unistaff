@@ -18,7 +18,12 @@ namespace PerformanceEvaluation.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult TimeSheet()
+        {
+            return View();
+        }
+
+        public IActionResult Objectives()
         {
             return View();
         }
