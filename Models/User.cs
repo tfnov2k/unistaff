@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace PerformanceEvaluation.Models
 {
@@ -52,6 +52,5 @@ namespace PerformanceEvaluation.Models
         [Required]
         [RegularExpression(@"^5\d{7}$", ErrorMessage = "Phone number must start with 5 and be exactly 8 digits.")]
         public string PhoneNo { get; set; }
-
     }
 }
